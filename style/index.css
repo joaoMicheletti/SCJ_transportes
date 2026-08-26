@@ -5,6 +5,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+@import url('https://fonts.googleapis.com/css2?family=Ancizar+Serif:ital,wght@0,300..900;1,300..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 /* animação / seletores do icone do whatsApp*/
 @keyframes pulseButtonWhats {
     0%, 100% {
@@ -274,4 +275,165 @@ h2 {
     background-color: #f03c02;
     color: white;
     box-shadow: #f03c02 2px 2px 20px;
+}
+/* faicha hr*/
+hr {
+    width: 100%;
+    height: 5px;
+    border: none;
+    background-color: #f03c02;
+    box-shadow: #f03c02 0px 4px 10px 3px;
+    z-index: 6;
+    position: relative;
+}
+/*serviços*/
+.servicosSection {
+    padding: 50px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+.containerTitulo {
+    width: 50%;
+    height: auto;
+    margin-bottom: 20px;
+}
+.titluesuperiorServicos {
+    font-family: "Montserrat" , sans-serif;
+    font-weight: 800;
+    color: #f03c02;
+}
+l {
+    color: #f03c02;
+}
+.sloganServicos {
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 41px;
+    margin-bottom: 20px;
+}
+.desriptionServicosTitle {
+    font-family: "Montserrat", sans-serif;
+    color: #000000;
+    font-weight: 100;
+}
+.ContainerServicosCardas {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.cardServico{
+    cursor: pointer;
+    width: 30%;
+    height: 300px;
+    border-radius: 10px;
+    border: solid 1px #f03c02;
+    display: flex;
+    flex-direction: row;
+}
+.cardServico:hover{
+    box-shadow: #f03d025b 0px 2px 30px;
+}
+.imgServicos {
+    width: 50%;
+    background-image: url(../assets/transporteimg.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px 0px 0px 10px;
+}
+.c2 {
+    background-image: url(../assets/galpao.webp);
+   
+}
+.c3 {
+    background-image: url(../assets/fullfilmet.webp);
+   
+}
+.infoCard {
+    width: 50%;
+    padding: 20px;
+}
+.imgNumero{
+    width: 80%;
+    margin-bottom: 10px;
+}
+.nomeServico {
+    font-family: "Montserrat", sans-serif;
+    color: #f03c02;
+    font-weight: 600;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.subTitleServico {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.descriptionServicos {
+    font-family: "Montserrat" sans-serif;
+    font-size: 12px;
+    font-weight: 100;
+    margin-bottom: 10px;
+}
+.btnServicos {
+    width: 100%;
+    border-radius: 10px;
+    border: none;
+    height: 30px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 900;
+    font-size: 12px;
+    color: white;
+    background-color: #f03c02;
+    cursor: pointer;
+}
+.containerInformationService {
+    padding: 20px;
+    border-radius: 10px;
+    border: solid 1px #f03d0263;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.titleInformation {
+    margin-bottom: 20px;
+
+}
+.imgDizers {
+    width: 80%;
+}
+.btnHistoria {
+    margin-left: 40%;
+    width: 20%;
+    height: 35px;
+    border: none;
+    border-radius: 10px;
+    background-color: #f03c02;
+    font-weight: 600;
+    color: white;
+    cursor: pointer;
+}
+/* media para section serviços*/
+@media (max-width: 500px) {
+    .containerTitulo {
+        width: 100%;
+    }
+    .ContainerServicosCardas {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 50px;
+    }
+    .cardServico{
+        cursor: pointer;
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+        border: solid 1px #f03c02;
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 20px;
+    }
 }
