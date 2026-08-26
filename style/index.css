@@ -322,7 +322,7 @@ l {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-bottom: 50px;
+    margin-bottom: 50px;    
 }
 .cardServico{
     cursor: pointer;
@@ -435,5 +435,12 @@ l {
         display: flex;
         flex-direction: row;
         margin-bottom: 20px;
+    }
+    .imgDizers {
+        width: 100%;
+    }
+    .btnHistoria {
+        margin-left: 25%;
+        width: 50%;
     }
 }
