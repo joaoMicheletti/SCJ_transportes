@@ -75,7 +75,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    background-color: rgba(255, 62, 3, 0.233);
+    background-color: rgba(255, 62, 3, 0.753);
     z-index: 2;
 }
 .logoContainer {
@@ -84,7 +84,6 @@
     align-items: center;
 }
 .logotipo {
-    margin-top: 10px;
     width: 70px;
 }
 .menuContainer {
@@ -583,4 +582,173 @@ l {
         border-radius: 10px;
     }
 
+}
+
+/* section Parceiros*/
+
+.parceiros {
+    padding: 50px;
+    font-family: "Montserrat", sans-serif;
+}
+.abeturaParceiros {
+    font-size: 14px;
+    text-align: center;
+    color: #f03c02;
+    font-weight: 100;
+    margin-bottom: 10px;
+}
+.tituloParceiros {
+    text-align: center;
+    line-height: 45px;
+    font-weight: 900;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+.descriptionParceiros {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 100;
+    margin-bottom: 50px;
+}
+
+.ContainerParceiros {
+    width: 100%;
+    height: auto;
+    margin-bottom: 30px;
+}
+.containerCenterAndSid {
+    width: 100%;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.parceirosSide {
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.imgSide {
+    width: 80%;
+    margin-bottom: 10px;
+}
+.cardCenter {
+    width: 33%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.imgCentrEmpresa {
+    width: 100%;
+}
+.ContainerFooter {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.imgSideFooter {
+    width: 20%;
+}
+.fechamentoParceiros {
+    text-align: center;
+    margin-top: 30PX;
+    margin-bottom: 50px;
+    font-weight: 500;
+}
+@media (max-width: 500px){
+    .containerCenterAndSid {
+        display: flex;
+        flex-direction: column;
+    }
+    .parceirosSide {
+        width: 100%;
+    }
+    .imgSide {
+        width: 80%;
+        margin-bottom: 10px;
+    }
+    .cardCenter {
+        display: none;
+    }
+    .ContainerFooter {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .imgSideFooter {
+        width: 80%;
+        margin-left: 10%;
+
+    }
+
+
+}
+/*footer rodape*/
+footer {
+    font-family: "Montserrat", sans-serif;
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    background-color: #080808;
+}
+.headerFooter {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.logoFooter {
+    width: 100px;
+}
+.imgHeaderLogo {
+    display: flex;
+}
+.containerFooter {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.cardFooter {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+.centerNome {
+    text-align: center;
+    margin-top: 10PX;
+    margin-bottom: 20px;
+}
+.txtFooter a {
+    text-decoration: none;
+    color: white;
+}
+.txtFooter {
+    margin-bottom: 5px;
+    font-weight: 400;
+    color: white;
+}
+.txtFooter:hover {
+    font-size: 15px;
+    color: #f03c02;
+}
+.txtFooter a:hover {
+    color: #f03c02;
+}
+.developerImg {
+    cursor: pointer;
+    width: 40%;
+    margin-left: 30%;
+    margin-bottom: 20px;
+}
+@media(max-width: 500px){
+    .containerFooter{
+        display: flex;
+        flex-direction: column;
+    }
+    .cardFooter {
+        width: 100%;
+    }
 }
