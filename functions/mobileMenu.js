@@ -23,14 +23,18 @@ encolhermenu.addEventListener("click", function () {
 
 // funcionalidade de direcionamento na pagina de sobre:
 
-const trabalhe = document.querySelector('#job');
+const trabalhe = document.querySelector("#job");
 
 trabalhe.addEventListener("click", function () {
+
     window.open(
         "https://wa.me/5511943774029?text=Ol%C3%A1%2C%20vim%20atrav%C3%A9s%20do%20site%20e%20gostaria%20de%20saber%20como%20posso%20fazer%20parte%20da%20equipe%20SJC.",
         "_blank"
     );
-})
+
+});
+
+
 
 const contato = document.querySelector("#contatoSobre");
 
@@ -40,3 +44,5 @@ contato.addEventListener("click", function(){
         "_blank"
     );
 })
+
+

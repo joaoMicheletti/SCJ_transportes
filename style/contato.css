@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Montserrat", sans-serif
 }
 @import url('https://fonts.googleapis.com/css2?family=Ancizar+Serif:ital,wght@0,300..900;1,300..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 /* animação / seletores do icone do whatsApp*/
@@ -158,11 +159,220 @@
     margin-bottom: 5px;
     width: 20px;
 }
+/*section Contato*/
+.contato {
+    width: 100%;
+    height: auto;
+    padding: 50px;
+}
+.containerContato {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.cardContato {
+    width: 50%;
+}
+#primary {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.pInicioContato {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 5px;
+    color: #f03c02;
+}
+l {
+    color: #f03c02;
+}
 
+.hrcontato {
+    width: 30%;
+    height: 3px;
+    background-color: #f03c02;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    box-shadow: #f03c02 0px 3px 30px;
+}
+.tituloContato {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+.headerForm {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 80px;
+    padding: 10px;
+}
+.cardHeaderForm {
+    width: 50%;
+    height: 40px;
+}
+.pTituloForm {
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+.descriptionHeaderForm {
+    font-size: 14px;
+}
+.headerForm img {
+    width: 30%;
+    float: right;
+}
+.containerForm {
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+}
+.sides{
+    width: 50%;
+    height: auto;
+}
+#left, #rigth {
+    display: flex;
+    flex-direction: column;
+}
+label {
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+input {
+    padding: 5px;
+    width: 90%;
+    height: 35px;
+    border: solid 1px #f03d0254;
+    border-radius: 5px;
+    margin-top: 10px;
+    color: #f03c02;
 
+}
+.formFooter {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+textarea {
+    margin-top: 10px;
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+    border: solid 1px #f03d027c;
+}
+.btnForm {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 40px;
+}
 
+.buttonContato {
+    width: 45%;
+    height: auto;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+}
+.textoButtonContato {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#sendWhatsApp {
+    background-color: green;
+}
+#sendWhatsApp:hover {
+    box-shadow: 5px 5px 40px  green;
+}
+#sendEmail {
+    background-color: #f03c02;
+}
+#sendEmail:hover {
+    box-shadow: 5px 5px 40px  #f03c02;
+}
+.iconButtonContato{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 20%;
+}
+.iconButtonContato img  {
+    width: 100%;
+}
 
-
+.TituloButtonContato {
+    font-weight: 600;
+    color: white;
+    margin-bottom: 5px;
+}
+.descriptionButtonContato {
+    color: white;
+    font-size: 14px;
+}
+@media(max-width: 500px){
+    .desktop {
+        display: none;
+    }
+    .containerContato {
+        display: flex;
+        flex-direction: column;
+    }
+    .cardContato {
+        width: 100%;
+        margin-bottom: 5px;
+    }
+    .cardHeaderForm {
+        width: 100%;
+    }
+    #logoHeaderForm {
+        display: none;
+    }
+    .containerForm {
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+    .sides{
+        width: 100%;
+        height: auto;
+    }
+    #left, #rigth {
+        display: flex;
+        flex-direction: column;
+    }
+    .btnForm {
+        display: flex;
+        flex-direction: column;
+    }
+    .buttonContato {
+        width: 100%;
+        height: auto;
+        border: none;
+        border-radius: 10px;
+        padding: 10px;
+        display: flex;
+        flex-direction: row;
+        cursor: pointer;
+    }
+    #sendEmail {
+        margin-top: 20px;
+    }
+    .iconButtonContato{
+        width: 20%;
+    }
+    .iconButtonContato img  {
+        width: 100%;
+    }
+}
 
 
 
