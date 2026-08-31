@@ -24,6 +24,7 @@
     <link rel="icon" href="https://ch-terra-maquinas.netlify.app/assets/logo.webp" type="image/x-icon">
     <link rel="stylesheet" href="style/index.css">
     <script src="functions/mobileMenu.js" defer></script>
+    <script src="functions/hero.js" defer></script>
     <meta 
         name="description" 
         content="Transporte, armazenagem, manuseio e fulfillment para sua empresa. A SJC Transportes oferece soluções logísticas integradas para mais eficiência, segurança e controle da sua operação."
@@ -78,29 +79,38 @@
 
     <!--Hero section-->
     <main id="hero" class="hero">
-         <!-- Vídeo de fundo -->
+
+        <div class="hero-bg"></div>
+         <!-- Vídeo de fundo -
         <video class="heroVideo" autoplay muted loop playsinline>
             <source src="assets/movies/0822.mp4" type="video/mp4">
             Seu navegador não suporta vídeos em HTML5.
         </video>
+        -->
 
-        <!-- Overlay sobre o vídeo -->
-        <div class="heroOverlay"></div>
+        <!-- Overlay sobre o vídeo 
+        <div class="heroOverlay"></div>-->
 
         <!-- Conteúdo -->
         <div class="containerHero">
+            <!--
             <img class="logoHero" src="assets/logo.webp" alt="logotipo"/>
-            <h6>ARMAZENAGEM • MANUSEIO • OPERAÇÃO LOGÍSTICA</h6>
-            <h2>OPERAÇÕES LOGISTICA E TRANSPORTE.</h2>
-            <p class="descriptionHero">
+            -->
+            
+
+            <h6 id="heroSubtitle">SJC</h6>
+
+            <h2 id="heroTitle">OPERAÇÕES LOGISTICA E TRANSPORTE.</h2>
+
+            <p id="heroDescription" class="descriptionHero">
                 Armazenamos, movimentamos e cuidamos dos 
                 seus produtos com uma operação 
                 preparada para trazer mais organização,
                 agilidade e segurança para o seu negócio.
             </p>
             <div class="buttonContainerHEro">
-                <button class="butonsHero" id="buttonHero1"> Nossos Serviços</button>
-                <button class="butonsHero" id="buttonHero2"> Orçamentos</button>
+                <button onclick="window.location.href='#servicos'" class="butonsHero" id="buttonHero1">Nossos Serviços</button>
+                <button onclick="window.location.href='contato.html'" class="butonsHero" id="buttonHero2">Orçamentos</button>
             </div>
         </div>
     </main>
