@@ -173,16 +173,14 @@ section {
 }
 
 .header-content {
-
     min-height: 82px;
-
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
 .logo img {
-    width: 150px;
+    width: 100px;
 }
 
 .nav {
