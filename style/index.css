@@ -314,7 +314,8 @@ h2 {
     flex-direction: column;
 }
 .containerTitulo {
-    width: 50%;
+    text-align: center;
+    width: 100%;
     height: auto;
     margin-bottom: 20px;
 }
