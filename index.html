@@ -238,7 +238,7 @@
         </P>
 
         <div class="ContainerNossosNumeros">
-
+            <!--container cards menores
             <div class="CardsNossosNumeros">
 
                 <div class="containerCardnumerolinha" id="linha01">
@@ -303,8 +303,272 @@
             </div>
 
             <div class="imgCardREgiao">
+                novo mapa
                 <img class="mapa" src="assets/mapa.webp" alt="imagem do Mapa de regiões">
-            </div>
+            </div>-->
+
+
+            <section class="operacao-section">
+
+                <div class="operacao-header">
+                    <p>
+                        Dados reais que mostram nosso compromisso com eficiência,
+                        agilidade e qualidade.
+                    </p>
+                </div>
+
+                <div class="operacao-container">
+
+                    <!-- =========================
+                        CARDS DA ESQUERDA
+                    ========================== -->
+
+                    <div class="indicadores">
+
+                        <div class="indicador-card">
+                            <div class="indicador-icon">♧</div>
+
+                            <div class="indicador-title">
+                                <span>NÚMERO DE</span>
+                                <strong>ATENDIMENTO</strong>
+                            </div>
+
+                            <div class="indicador-number">
+                                11.500+
+                            </div>
+
+                            <p>
+                                Atendimento realizado todos os meses.
+                            </p>
+                        </div>
+
+
+                        <div class="indicador-card destaque">
+
+                            <div class="indicador-icon">▣</div>
+
+                            <div class="indicador-title">
+                                <span>NÚMERO DE</span>
+                                <strong>PACOTES<br>BIPADOS POR DIA</strong>
+                            </div>
+
+                            <div class="indicador-number">
+                                18.000+
+                            </div>
+
+                            <p>
+                                Pacotes bipados diariamente com agilidade e precisão.
+                            </p>
+
+                        </div>
+
+
+                        <div class="indicador-card">
+
+                            <div class="indicador-icon">♢</div>
+
+                            <div class="indicador-title">
+                                <span>SLA</span>
+                                <strong>DIÁRIO</strong>
+                            </div>
+
+                            <div class="indicador-number">
+                                99,00%
+                            </div>
+
+                            <p>
+                                Consistência operacional garantida em todas as peças de atendimento.
+                            </p>
+
+                        </div>
+
+
+                        <div class="indicador-card">
+
+                            <div class="indicador-icon">⌖</div>
+
+                            <div class="indicador-title">
+                                <span>RASTREABILIDADE</span>
+                            </div>
+
+                            <div class="indicador-number">
+                                100%
+                            </div>
+
+                            <p>
+                                Dados precisos e auditáveis em todas as etapas da operação.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- =========================
+                        MAPA
+                    ========================== -->
+
+                    <div class="mapa-container">
+
+                        <div class="mapa-title">
+
+                            <span class="mapa-pin">⌖</span>
+
+                            <div>
+                                <strong>REGIÕES <span>ATENDIDAS</span></strong>
+
+                                <div class="mapa-title-line"></div>
+                            </div>
+
+                        </div>
+
+
+                        <!-- LISTA DE CIDADES -->
+
+                        <div class="cidades-lista">
+
+                            <button
+                                class="cidade-item"
+                                data-city="caieiras">
+                                <span>⌖</span>
+                                Caieiras
+                            </button>
+
+                            <button
+                                class="cidade-item"
+                                data-city="cajamar">
+                                <span>⌖</span>
+                                Cajamar
+                            </button>
+
+                            <button
+                                class="cidade-item"
+                                data-city="franciscomorato">
+                                <span>⌖</span>
+                                Francisco Morato
+                            </button>
+
+                            <button
+                                class="cidade-item"
+                                data-city="francodarocha">
+                                <span>⌖</span>
+                                Franco da Rocha
+                            </button>
+
+                            <button
+                                class="cidade-item"
+                                data-city="jordanesia">
+                                <span>⌖</span>
+                                Jordanésia
+                            </button>
+
+                            <button
+                                class="cidade-item"
+                                data-city="maripora">
+                                <span>⌖</span>
+                                Mairiporã
+                            </button>
+
+                            <button
+                                class="cidade-item"
+                                data-city="polvilho">
+                                <span>⌖</span>
+                                Polvilho
+                            </button>
+
+                            <button
+                                class="cidade-item"
+                                data-city="perus">
+                                <span>⌖</span>
+                                Perus
+                            </button>
+
+                        </div>
+
+
+                        <!-- MAPA REAL -->
+
+                        <div id="mapaSJC"></div>
+
+
+                        <!-- CARD DE SLA -->
+
+                        <div
+                            id="slaPopup"
+                            class="sla-popup">
+
+                            <div class="sla-popup-city">
+                                <span>⌖</span>
+                                <span id="slaCidade">
+                                    Cajamar
+                                </span>
+                            </div>
+
+                            <div class="sla-popup-label">
+                                SLA OPERACIONAL
+                            </div>
+
+                            <div
+                                id="slaValor"
+                                class="sla-popup-value">
+                                99,2%
+                            </div>
+
+                            <div class="sla-popup-bar">
+                                <span id="slaBarra"></span>
+                            </div>
+
+                        </div>
+
+
+                        <!-- BOX INFERIOR -->
+
+                        <div class="entregas-box">
+
+                            <div class="entregas-icon">
+                                ▣
+                            </div>
+
+                            <div>
+
+                                <strong>
+                                    ENTREGAS RÁPIDAS
+                                </strong>
+
+                                <p>
+                                    Mais cobertura.<br>
+                                    Mais agilidade.<br>
+                                    Mais eficiência.
+                                </p>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+
+            <!-- LEAFLET -->
+
+            <link
+                rel="stylesheet"
+                href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+            />
+
+            <script
+                src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js">
+            </script>
+
+            <script src="functions/mapa.js"></script>
+
+
+
+
+
         </div>
 
         <div class="containerInfoNumeros">
